@@ -12,7 +12,7 @@ Each challenge is implemented using **Node.js** and the **readline module** for 
 
 ---
 
-## Challenge 1: Chai Bora Ingredient Calculator 
+## Challenge 1: Chai Bora Ingredient Calculator☕
 
 ### **Description**
 This program calculates the ingredients required to prepare a specified number of **cups of Kenyan chai** based on a standard recipe.
