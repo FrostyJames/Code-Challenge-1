@@ -1,12 +1,12 @@
-# Code Challenges Repository 
+# Code Challenge 1 Repository 
 
-Welcome to the **JavaScript Code Challenges Repository**! This repository contains solutions to three interactive coding challenges aimed at improving JavaScript skills while solving practical problems.
+Welcome to the **JavaScript Code Challenge 1 Repository**! This repository contains solutions to three interactive coding challenges aimed at improving JavaScript skills while solving practical problems.
 
 ## Challenges Overview 
 
 1. **Chai Bora Ingredient Calculator **  
 2. **Boda Boda Ride Fare Estimator **  
-3. **Mobile Money Transaction Fee Estimator 📱**  
+3. **Mobile Money Transaction Fee Estimator **  
 
 Each challenge is implemented using **Node.js** and the **readline module** for user interaction in a terminal environment.
 
@@ -29,38 +29,53 @@ This program calculates the ingredients required to prepare a specified number o
 3. Calculates the required amount for each ingredient.
 4. Displays the results in a **formatted output**.
 
-### **How to Run**
-```sh
-cd ChaiCalculator
-node chai.js
+
+🔹 **Folder**: `chaiCalculator`  
+🔹 **File**: `chai.js`  
+
+---
+
+### **Challenge 2: Boda Boda Ride Fare Estimator 🛵**
+This challenge involves estimating the cost of a boda boda trip based on distance traveled.
+
+#### **Fare Calculation Rules**
+- **Base Fare**: KES 50 (applies to every ride)
+- **Per Kilometer Charge**: KES 15 per km
+
+#### **How It Works**
+- The user enters the distance of their trip (in kilometers).
+- The function calculates the total estimated fare.
+- The results are displayed in a friendly format.
 
 
-### *Challenge 2: Boda Boda Ride Fare Estimator**
-Description
-This program estimates the fare for a boda boda ride based on a distance-based pricing system.
-Fare Calculation Rules
-- Base Fare: KES 50
-- Per Kilometer Charge: KES 15
-How It Works
-- Prompts the user to enter the distance in kilometers for their trip.
-- Validates the input.
-- Calculates the total estimated fare using the formula:
-**totalFare = baseFare + (distanceInKm * chargePerKm);**
+🔹 **Folder**: `bodaFareCalculator`  
+🔹 **File**: `fare.js`  
 
-Challenge 2: Boda Boda Ride Fare Estimator 🛵
-Description
-This program estimates the fare for a boda boda ride based on a distance-based pricing system.
-Fare Calculation Rules
-- Base Fare: KES 50
-- Per Kilometer Charge: KES 15
-How It Works
-- Prompts the user to enter the distance in kilometers for their trip.
-- Validates the input.
-- Calculates the total estimated fare using the formula:
-**transactionFee = Math.max(minFee, Math.min(amountToSend * feePercentage, maxFee));**
+---
 
-Conclusion 🎯
-This repository provides practical JavaScript solutions to everyday problems, from estimating transaction fees to calculating boda boda fares and chai ingredients. Through these challenges, we have applied basic arithmetic operations, conditional logic, and user interaction handling using Node.js.
-By working on these coding exercises, developers can strengthen their JavaScript skills, learn to process user input dynamically, and implement real-world problem-solving techniques. Whether you're a beginner exploring JavaScript or an experienced developer refining your skills, these challenges offer a fun and engaging way to enhance your coding journey! 🚀
-Happy coding, and feel free to contribute or suggest improvements! 😊🔥
-Would you like me to format your README.md further or add additional sections? Let me know how I can assist! 🚀
+### **Challenge 3: Mobile Money Transaction Fee Estimator 📱**
+This challenge calculates transaction fees based on a simplified fee structure.
+
+#### **Fee Structure**
+- **1.5% of the amount sent**
+- **Minimum Fee**: KES 10 (if 1.5% is below KES 10, charge KES 10)
+- **Maximum Fee**: KES 70 (if 1.5% exceeds KES 70, charge KES 70)
+
+#### **How It Works**
+- The user enters the amount they want to send.
+- The function calculates the correct transaction fee.
+- The total amount to be debited is displayed.
+
+# Project Structure 
+Code-Challenge-1/
+│── chaiCalculator/
+│   ├── chai.js
+│── bodaFareCalculator/
+│   ├── fare.js
+│── mobileMoneyEstimator/
+│   ├── fee.js
+│── README.md
+
+# Author
+Created by James Ivan
+Github repository: https://github.com/FrostyJames/Code-Challenge-1
